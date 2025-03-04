@@ -1,13 +1,13 @@
-import express from 'express'
+import express from "express";
 
-const app = express()
+const app = express();
 
-app.get('/', (req, res) => {
-    res.send('Welcome to th Subscription Tracker API!')
-})
+app.get("/", (req, res) => {
+  res.send("Welcome to th Subscription Tracker API!");
+});
 
 app.listen(3000, () => {
-    console.log('Subscription Tracker API is running on port 3000!')
-})
+  console.log("Subscription Tracker API is running on port 3000!");
+});
 
-export default app
+export default app;
